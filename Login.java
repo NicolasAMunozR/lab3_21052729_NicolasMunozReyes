@@ -1,7 +1,7 @@
 package org.example;
 
 public class Login {
-    String nombre;
+    private final String nombre;
     public Login(String user_login) {
        this.nombre = user_login;
     }
