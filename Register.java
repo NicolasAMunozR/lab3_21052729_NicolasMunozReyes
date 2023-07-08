@@ -1,7 +1,7 @@
 package org.example;
 
 public class Register {
-    String usuario;
+    private final String usuario;
     public Register(String usuario) {
         this.usuario = usuario;
     }
